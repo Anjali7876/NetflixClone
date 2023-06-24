@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: #fff;
+  
+} 
+
+.section-first {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(images/earth.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-left: 45px;
+    padding-right: 45px;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 150px;
+
+}
+
+nav {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+nav button {
+    float: right;
+    margin-left: 10px;
+}
+
+.dropdown .btn1 {
+    border: 2px solid grey;
+   
+}
+
+.title-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title-content h1 {
+    font-size: 55px;
+    font-weight: bold;
+    max-width: 600px;
+}
+
+.title-content h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+   .form-input {
+    margin-left: 25%;
+    margin-right: 40%;
+    display: flex;
+}
+
+.btn-getstarted {
+    border-radius: 0;
+    width: 140px;
+}
+
+.email-signup {
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.email-signup input {
+    flex: 1;
+    border: 0;
+
+    outline: 0;
+    margin-left: 20px;
+
+}
+
+.email-signup button {
+    background: #db0001;
+    outline: 0;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    height: 70px;
+    width: 100px;
+} 
+
+
+
+/* =============features=========== */
+.tv-heading1 {
+    font-size: 46px;
+    font-weight: bold;
+    padding-top: 105px;
+}
+
+.tv-subtitle {
+    font-size: 25px;
+}
+
+.imagetv {
+    padding-top: 35px;
+}
+
+/*  ======accordan======*/
+.pra1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.accordian {
+    margin: 60px auto;
+    width: 100%;
+    max-width: 850px;
+}
+
+.accordian li {
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.accordian li label {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 2px;
+    background: #303030;
+    cursor: pointer;
+}
+
+label::after {
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    transition: transform 0.5s;
+    right:415px;
+    
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.accordian .content1 {
+    background: #303030;
+    text-align: left;
+    padding: 0 1px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordian input[type="radio"]:checked+label+.content1 {
+    max-height: 600px;
+}
+
+.accordian input[type="radio"]:checked+label::after {
+    transform: rotate(136deg);
+}
+
+.paragraph {
+    font-size: 25px;
+}
+
+.list-unstyled li {
+    font-size: 14px;
+    padding: 8px;
+}
+
+.footer {
+    border-top: 6px solid #333;
+    border-width: 100%;
+}
+
+
+
+/* ===========footer section========= */
+.footer-section {
+    color: #777;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer-section h2 {
+    padding-top: 19px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.footer-section .col1 a {
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+}
+
+.footer-section .row {
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+.footerbutton {
+    padding-left: 0px;
+    margin-right: 1px;
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+
+h6 {
+    padding-top: 5px;
+    font-size: 14px;
+} 
